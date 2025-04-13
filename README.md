@@ -1,65 +1,34 @@
-This is a 2D platformer game inspired by Super Mario, built in Java using LWJGL, a low-level game development framework that gives you access to OpenGL, GLFW, and other native libraries.
+# 2D Mario-Inspired Platformer (Java + LWJGL)
 
-🚀 Features
+This is a 2D platformer game inspired by **Super Mario**, built using **Java** and the **Lightweight Java Game Library (LWJGL)**.  
+I'm using this project to learn the fundamentals of game development, OpenGL, and real-time rendering.
 
-Game window creation using GLFW
+> ⚠️ Mario is a placeholder — I plan to develop my own unique characters and game world in the future!
 
-Mouse input tracking (via MouseListener class)
+---
 
-OpenGL rendering setup
+## 🚀 Features
 
-VSync, window events, and main game loop
+- Game window built using GLFW
+- Real-time rendering with OpenGL
+- Custom `Window` and `MouseListener` classes
+- Input handling for mouse and keyboard
+- Built with Gradle for dependency management
 
-Basic project structure using Gradle
+---
 
-📂 Project Structure
+## 🎮 Technologies Used
 
-├── src
-│   └── main
-│       └── java
-│           └── jade
-│               ├── Window.java
-│               └── MouseListener.java
-├── build.gradle
-└── settings.gradle
+- Java 17+
+- [LWJGL 3](https://www.lwjgl.org/)
+- OpenGL (via LWJGL)
+- GLFW (for window/input handling)
+- Gradle (project build & dependency management)
 
-🛠️ Getting Started
+---
 
-Prerequisites
+## 🛠️ How to Run
 
-Java JDK 17 or later
-
-IntelliJ IDEA (recommended)
-
-Gradle
-
-Running the Project
-
-Clone the repository
-
-Open in IntelliJ
-
-Sync Gradle and run Window.java
-
-📜 License
-
-This project is licensed under the MIT License. See the LICENSE file for details.
-
-🙋‍♂️ Author
-
-Created by a beginner Java developer as part of a personal learning journey. Feel free to fork, star, or contribute!
-
-💡 Goals
-
-This project is part of a portfolio to learn game development and prepare for internships or jobs in software/game dev. Future updates may include:
-
-Sprite rendering
-
-Physics
-
-Levels and enemy logic
-
-Custom game mechanics
-
-"It's going to be Mario for now, but I’ll implement my own creative spin-off!"
-
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/trinidad-christian/2Dmario.git
